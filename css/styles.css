@@ -169,7 +169,7 @@
 .footer-container {
     background-image: url(../img/rodape.jpg);
     background-position: center;
-    height: 600px;
+    height: 700px;
 }
 
 .about-container {
@@ -221,6 +221,8 @@
     height: 375px;
     position: relative;
     display: block;
+    margin-top: 230px;
+    margin-left: 109px;
 }
 
 .form-background {
@@ -228,5 +230,52 @@
     height: 100%;
     background-color: #FFF;
     opacity: .5;
+    
 }
+
+.form-container form {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 300px;
+}
+
+.form-container input , .form-container textarea {
+    width: 400px;
+    display: block;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #AAA;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.form-container textarea {
+    height: 120px;
+}
+
+.form-container input::placeholder, .form-container textarea::placeholder {
+    font-size: 14px;
+}
+
+.form-container .submit {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid transparent;
+    width: 100px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.form-container .submit:hover {
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+    
+}
+
 
